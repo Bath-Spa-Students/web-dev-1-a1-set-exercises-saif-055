@@ -1,0 +1,31 @@
+.video {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+
+video {
+  width: 50%;
+  height: 50%;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(115, 64, 73);
+  font-size: 58px;
+  margin-top: 70px;
+  margin-left: 3cm;
+  margin-right: 3cm;
+}
+
+p {
+  position: absolute;
+  bottom: 15mm;
+  left: 24pc;
+  font-size: 20px;
+  color: rgb(149, 68, 39);
+}
+
+body {
+  background-color: honeydew;
+}

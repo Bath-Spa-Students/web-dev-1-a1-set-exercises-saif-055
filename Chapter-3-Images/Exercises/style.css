@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: burlywood;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 8pc;
+}
+
+.image-gallery img {
+  max-width: 95%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.image-gallery figure {
+  margin: 10px;
+  text-align: center;
+}
+
+.image-gallery figcaption {
+  font-style: italic;
+  font-size: 14px;
+}
+
+.image-gallery img {
+  filter: grayscale(100%);
+  transition: filter 0.3s;
+}
+.image-gallery img:hover {
+  filter: grayscale(0%);
+}

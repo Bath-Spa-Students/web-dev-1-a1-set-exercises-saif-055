@@ -1,0 +1,60 @@
+.Food {
+  text-align: center;
+}
+
+.Ingredients {
+  margin-top: 12px;
+  width: 24%;
+  background-color: rgb(205, 205, 205);
+  display: inline-block;
+}
+
+.Ingredients h2 {
+  padding-left: 25px;
+  color: rgb(22, 223, 62);
+  font-family: monospace;
+}
+
+img {
+  height: 220px;
+  width: auto;
+  position: relative;
+  bottom: -4px;
+}
+
+.Method {
+  position: relative;
+  float: right;
+  width: 75%;
+  top: 12px;
+  padding-bottom: 5px;
+  background-color: rgb(205, 205, 205);
+}
+
+.Method h2 {
+  color: rgb(22, 223, 62);
+  padding-left: 12cm;
+  font-family: monospace;
+}
+
+h1 {
+  color: rgb(22, 223, 62);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+hr {
+  border: solid rgb(22, 223, 62);
+}
+
+p {
+  padding-top: 10px;
+  font-family: cursive;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+li {
+  font-family: monospace;
+}
